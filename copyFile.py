@@ -7,7 +7,7 @@ myDst = "f:/tmp/basic steps.txt-4.bak"
 try:
     shutil.copyfile(mySrc, myDst)
 except:
-    print(f'Error: copyfile failed')
+    print('Error: copyfile failed')
 
 # copy directory from here to there
 mySrcDir = "c:/temp/tmp"
